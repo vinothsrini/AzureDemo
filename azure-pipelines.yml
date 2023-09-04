@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: VinothPc
+  vmImage: "VinothPc"
 
 steps:
 - task: Maven@3
