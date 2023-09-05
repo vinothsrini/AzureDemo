@@ -12,4 +12,4 @@ stages:
   jobs:
   - job: BuildJob
     steps:
-    - script: echo Building!
+    - script: mvn clean install
